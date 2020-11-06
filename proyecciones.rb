@@ -17,7 +17,6 @@ puts "#{primer_semestre}"
 puts "#{segundo_semestre}"
 
 #Guarda el nuevo array en un archivo .data
-
 CSV.open("resultados.data", "w") do |csv|
     csv << [primer_semestre]
     csv << [segundo_semestre]
